@@ -2,6 +2,12 @@ module.exports = {
   mode: "jit",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    colors: {
+      primaryColor: "#5956CE",
+      salePersentBgColor: "#e44542",
+      cardItemDescriptionColor: "#474747",
+      crossedOutTextColor: "#999999",
+    },
     fontFamily: {
       fontBold: `ptRootUI-700`,
       fontMedium: `ptRootUI-500`,
@@ -14,11 +20,6 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
       "2xl": "1536px",
-    },
-    colors: {
-      primaryColor: "#5956CE",
-      salePersentBgColor: "##e44542",
-      crossedOutTextColor: "#999999",
     },
     extend: {
       spacing: {
