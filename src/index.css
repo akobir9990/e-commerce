@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+/* ptRootUI */
+
 @font-face {
   font-family: "ptRootUI-300";
   src: url(./fonts/light.otf);
@@ -17,4 +24,11 @@
 @font-face {
   font-family: "ptRootUI-700";
   src: url(./fonts/bold.otf);
+}
+
+/* montserrat */
+
+@font-face {
+  font-family: "montserrat-600";
+  src: url(./fonts/Montserrat/Montserrat-SemiBold.ttf);
 }
