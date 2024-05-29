@@ -1,5 +1,11 @@
-import "./index.css";
+import Home from "./pages/home/Home";
+import Header from "./components/header/Header";
 
 export default function App() {
-  return <div className="text-crossedOutTextColor underline">hello</div>;
+  return (
+    <div>
+      <Header />
+      <Home />
+    </div>
+  );
 }
