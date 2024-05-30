@@ -1,4 +1,4 @@
-import phoneIcon from "../../assets/phone.png";
+import phoneIcon from "../../../assets/phone.png";
 
 export default function Header() {
   return (
