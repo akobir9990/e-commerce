@@ -8,6 +8,7 @@ module.exports = {
       cardItemDescriptionColor: "#474747",
       crossedOutTextColor: "#999999",
       white: "#fff",
+      socialsHower: "#6a66d3",
     },
     fontFamily: {
       "pt-root-ui-bold": `ptRootUI-700`,
