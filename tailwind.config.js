@@ -7,12 +7,14 @@ module.exports = {
       salePersentBgColor: "#e44542",
       cardItemDescriptionColor: "#474747",
       crossedOutTextColor: "#999999",
+      white: "#fff",
     },
     fontFamily: {
-      fontBold: `ptRootUI-700`,
-      fontMedium: `ptRootUI-500`,
-      fontRegular: `ptRootUI-400`,
-      fontLight: `ptRootUI-300`,
+      "pt-root-ui-bold": `ptRootUI-700`,
+      "pt-root-ui-medium": `ptRootUI-500`,
+      "pt-root-ui-regular": `ptRootUI-400`,
+      "pt-root-ui-light": `ptRootUI-300`,
+      "montserrat-semibold": `montserrat-600`,
     },
     screens: {
       sm: "640px",
