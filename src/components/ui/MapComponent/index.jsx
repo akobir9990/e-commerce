@@ -1,4 +1,4 @@
-import YandexMap from "../YandexMap";
+import YandexMap from "../../YandexMap";
 
 export default function MapComponent() {
   return (

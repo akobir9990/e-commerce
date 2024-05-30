@@ -1,4 +1,4 @@
-import ImageItem from "./ImageItem";
+import ImageItem from "../../ImageItem";
 
 export default function OurGalery() {
   return (

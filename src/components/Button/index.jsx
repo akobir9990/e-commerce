@@ -1,7 +1,10 @@
-export default function Button({ children }) {
+export default function Button({ children, style, onClick }) {
   return (
-    <div className="bg-primaryColor text-[white] flex justify-center items-center w-full h-10 rounded-lg">
+    <button
+      onClick={onClick()}
+      className={`bg-primaryColor text-white flex justify-center items-center w-full h-10 rounded-lg ${style}`}
+    >
       {children}
-    </div>
+    </button>
   );
 }
