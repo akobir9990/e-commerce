@@ -1,4 +1,4 @@
-import glasses from "../../../assets/glasses.webp";
+import glasses from "../../../assets/images/glasses.webp";
 
 export default function Glasses() {
   return (

@@ -1,7 +1,7 @@
 import YandexMap from "../../YandexMap";
-import telegram from "../../../assets/icons/telegram.png";
-import vk from "../../../assets/icons/vk.png";
-import ok from "../../../assets/icons/ok.png";
+import telegram from "../../../assets/icons/whiteTelegram.png";
+import vk from "../../../assets/icons/whiteVk.png";
+import ok from "../../../assets/icons/whiteOk.png";
 
 export default function MapComponent() {
   return (
@@ -20,7 +20,7 @@ export default function MapComponent() {
               +7 777 777 77 77
             </a>
             <a
-              className="text-[18px] font-pt-root-ui-regular"
+              className="text-lg font-pt-root-ui-regular"
               href="mailto:sun_glasses@insales.ru"
             >
               sun_glasses@insales.ru
