@@ -1,8 +1,8 @@
 export default function Msg() {
   return (
-    <div className="my-10 bg-[white]">
+    <div className="my-10 bg-white">
       <div className="container">
-        <p className="text-[16px] font-[ptRootUI-300]">
+        <p className="text-base font-pt-root-ui-light">
           Мы верим, что мода и природа могут гармонично сосуществовать. Наши
           деревянные очки - это не просто аксессуар, это манифестация вашего
           стиля и экологических убеждений. Они идеально подойдут для тех, кто
