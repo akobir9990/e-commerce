@@ -4,7 +4,7 @@ const MyMapComponent = () => (
   <Map
     defaultState={{
       center: [55.774527, 37.587093],
-      zoom: 15,
+      zoom: 18,
     }}
     width="100%"
     height="400px"
