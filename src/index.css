@@ -5,6 +5,15 @@
 .container {
   max-width: 1272px;
   margin: 0 auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 /* ptRootUI */
