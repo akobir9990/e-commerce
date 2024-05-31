@@ -3,12 +3,19 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      primaryColor: "#5956CE",
-      salePersentBgColor: "#e44542",
-      cardItemDescriptionColor: "#474747",
-      crossedOutTextColor: "#999999",
+      primary: "#5956CE",
+      "primary:hower": "#6a66d3",
+      secondary: "#f7f7f7",
+      tertiary: "",
+      sale: "#e44542",
       white: "#fff",
-      socialsHower: "#6a66d3",
+
+      /////////////
+
+      "dark-40": "#a6a6a7",
+      "dark-60": "#5c5c5c",
+      "dark-80": "#333",
+      "dark-100": "#000",
     },
     fontFamily: {
       "pt-root-ui-bold": `ptRootUI-700`,
@@ -26,8 +33,20 @@ module.exports = {
     },
     extend: {
       spacing: {
-        128: "32rem",
+        1: "1px",
+        5: "5px",
       },
+
+      backgroundImage: {
+        "hero-bg": "url('./src/assets/images/bg.png')",
+      },
+    },
+    fontSize: {
+      20: "20px",
+      26: "26px",
+      28: "28px",
+      40: "40px",
+      64: "64px",
     },
   },
   plugins: [],

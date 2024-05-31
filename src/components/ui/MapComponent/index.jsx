@@ -5,14 +5,14 @@ import ok from "../../../assets/icons/whiteOk.png";
 
 export default function MapComponent() {
   return (
-    <div className="min-h-[500px] bg-[#f7f7f7] flex items-center">
+    <div className="min-h-[500px] bg-secondary flex items-center">
       <div className="container flex md:flex-row flex-col gap-3 min-h-[422px] items-center">
         <div className="md:w-1/2 w-full">
           <YandexMap />
         </div>
         <div className="md:w-1/2 w-full flex flex-col justify-center gap-3">
-          <h3 className="text-[28px] font-pt-root-ui-medium">Наши контакты</h3>
-          <div className="text-[26px] grid gap-2">
+          <h3 className="text-28 font-pt-root-ui-medium">Наши контакты</h3>
+          <div className="text-26 grid gap-2">
             <a
               className="text-xl font-pt-root-ui-regular"
               href="tel:+7 777 777 77 77"
@@ -30,13 +30,13 @@ export default function MapComponent() {
             </p>
           </div>
           <div className="flex gap-4">
-            <div className="size-10 rounded-[50%] flex justify-center items-center bg-primaryColor hover:bg-socialsHower cursor-pointer">
+            <div className="size-10 rounded-[50%] flex justify-center items-center bg-primary hover:bg-primary:hower cursor-pointer">
               <img src={telegram} alt="tel" />
             </div>
-            <div className="size-10 rounded-[50%] flex justify-center items-center bg-primaryColor hover:bg-socialsHower cursor-pointer">
+            <div className="size-10 rounded-[50%] flex justify-center items-center bg-primary hover:bg-primary:hower cursor-pointer">
               <img src={vk} alt="vk" />
             </div>
-            <div className="size-10 rounded-[50%] flex justify-center items-center bg-primaryColor hover:bg-socialsHower cursor-pointer">
+            <div className="size-10 rounded-[50%] flex justify-center items-center bg-primary hover:bg-primary:hower cursor-pointer">
               <img src={ok} alt="ok" />
             </div>
           </div>

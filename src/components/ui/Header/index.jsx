@@ -10,9 +10,7 @@ export default function Header() {
           Меню
         </a>
       </div>
-      <div className="font-montserrat-semibold text-[40px] text-white">
-        LANDING
-      </div>
+      <div className="font-montserrat-semibold text-40 text-white">LANDING</div>
       <div className="font-pt-root-ui-regular flex items-center text-base text-white">
         <img className="size-4" src={phoneIcon} alt="" />
         +7 777 777 77 77

@@ -11,7 +11,7 @@ export default function Glasses() {
           <h2 className="font-fontBold text-3xl">
             Откройте мир ярких красок с солнечными очками из дерева
           </h2>
-          <p className="text-xl font-fontRegular mb-4">
+          <p className="text-xl font-pt-root-ui-regular mb-4">
             В современном мире очки - это не просто средство коррекции зрения,
             это стильный аксессуар, который подчеркивает вашу индивидуальность.
             Мы предлагаем эксклюзивную коллекцию очков, которые сочетают в себе
