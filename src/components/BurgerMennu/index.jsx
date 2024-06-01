@@ -24,7 +24,7 @@ const App = () => {
         direction="left"
         className="p-8 min-w-[500px]"
       >
-        <div>
+        <div onClick={toggleDrawer} className="min-h-screen">
           <h3 className="text-2xl font-pt-root-ui-medium mb-8 pb-8">Меню</h3>
           <div className="info pb-6">
             <h4 className="text-lg font-pt-root-ui-regular mb-4">Информация</h4>
