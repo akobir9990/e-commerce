@@ -15,14 +15,14 @@ export default function index() {
               className="w-full h-[50px] rounded-md px-2.5 py-2.5 bg-secondary focus:outline focus:outline-2 focus:outline-[#ededed] border border-[#ededed] focus:border-[none] mb-8"
             />
             <input
-              type="text"
+              type="tel"
               name=""
               id=""
               placeholder="Телефон"
               className="w-full h-[50px] rounded-md px-2.5 py-2.5 bg-secondary focus:outline focus:outline-2 focus:outline-[#ededed] border border-[#ededed] focus:border-[none] mb-8"
             />
             <input
-              type="text"
+              type="email"
               name=""
               id=""
               placeholder="Почта*"
