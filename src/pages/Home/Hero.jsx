@@ -2,7 +2,7 @@ import Header from "../../components/ui/Header";
 
 export default function Hero() {
   return (
-    <div className="bg-hero-bg bg-no-repeat bg-center bg-cover">
+    <div className="bg-image bg-no-repeat bg-center bg-cover max-h-[880px]">
       <div className="container">
         <Header />
       </div>
