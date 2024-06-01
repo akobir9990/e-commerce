@@ -15,7 +15,7 @@ export default function Footer() {
             <img src={vk} alt="" className="w-6 h-auto" />
           </div>
           <div className="size-10 flex items-center justify-center">
-            <img src={ok} alt="" className="w-6 h-auto" />
+            <img src={ok} alt="" className="h-6 " />
           </div>
         </div>
       </div>
