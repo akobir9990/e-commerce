@@ -39,12 +39,16 @@ module.exports = {
 
       backgroundImage: {
         "hero-bg": "url('./src/assets/images/bg.png')",
+        "glasses-bg": "url('../src/assets/images/glasses.webp",
       },
     },
     fontSize: {
+      base: "16px",
       20: "20px",
+      "2xl": "24px",
       26: "26px",
       28: "28px",
+      32: "32px",
       40: "40px",
       64: "64px",
     },
