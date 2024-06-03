@@ -1,13 +1,12 @@
 import Button from "../Button";
-import glass from "../../assets/images/glass.webp";
-export default function CardItem() {
+export default function CardItem({ item }) {
   return (
     <div className="relative m-2.5 w-[230px] min-h-[417px] flex flex-col justify-between">
       <div className="absolute p-5 top-1 left-1 bg-sale rounded-md text-base text-white z-10">
         -29%
       </div>
       <div className="flex items-center justify-center w-full h-[227px] mb-4 rounded-tl-xl rounded-tr-xl ">
-        <img src={glass} alt="" className="size-full rounded-lg" />
+        <img src={item.imgUrl} alt="" className="size-full rounded-lg" />
       </div>
       <h3 className="text-dark-60 text-base font-fontLight mb-4 px-2.5">
         Солнечные очки с дужками из бука

@@ -1,4 +1,5 @@
 import AdvantageItem from "../../AdvantageItem";
+import { fakeAdvantageData } from "./const";
 
 export default function OurAdvantages() {
   return (
@@ -8,9 +9,9 @@ export default function OurAdvantages() {
           Наши преимущества
         </h2>
         <div className="grid md:grid-cols-3 grid-cols-1 md:grid-rows-2 gap-3 mb-4">
-          {Array.from({ length: 6 }, (_, idx) => (
-            <AdvantageItem key={idx} />
-          ))}
+          {fakeAdvantageData.map((item) => {
+            return <AdvantageItem item={item} key={item.id} />;
+          })}
         </div>
       </div>
     </div>

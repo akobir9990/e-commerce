@@ -5,7 +5,7 @@ import ok from "../../../assets/icons/whiteOk.png";
 
 export default function MapComponent() {
   return (
-    <div className="min-h-[500px] bg-secondary flex items-center">
+    <div className="min-h-[500px] bg-secondary flex items-center md:py-[38px] py-[100px]">
       <div className="container flex md:flex-row flex-col gap-3 min-h-[422px] items-center">
         <div className="md:w-1/2 w-full">
           <YandexMap />

@@ -7,8 +7,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import "./embla.css";
 import CardItem from "../CardItem";
 
-const EmblaCarousel = (props) => {
-  const { slides, options } = props;
+const EmblaCarousel = ({ options, fakeCatalogData }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
   const {
@@ -22,10 +21,10 @@ const EmblaCarousel = (props) => {
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
-            <div className="embla__slide" key={index}>
+          {fakeCatalogData.map((item) => (
+            <div className="embla__slide" key={item}>
               <div className="embla__slide__number">
-                <CardItem />
+                <CardItem item={item} />
               </div>
             </div>
           ))}

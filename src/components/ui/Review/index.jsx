@@ -1,9 +1,9 @@
 import EmblaCarousel from "../../Embla/ReviewEmbla/EmblaCarousel";
 import ReviewCardItem from "../../ReviewCardItem";
+import { fakeReviewData } from "../Review/const";
 
-const OPTIONS = {};
-const SLIDE_COUNT = 5;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
+const OPTIONS = { align: "start" };
+const SLIDE_COUNT = fakeReviewData.length;
 
 export default function Review() {
   return (
@@ -13,12 +13,16 @@ export default function Review() {
           Отзывы клиентов
         </h2>
         <div className="lg:hidden">
-          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          <EmblaCarousel
+            fakeReviewData={fakeReviewData}
+            slides={SLIDE_COUNT}
+            options={OPTIONS}
+          />
         </div>
         <div className="hidden grid-rows-2 grid-cols-2 gap-4 lg:grid">
-          {Array.from({ length: 4 }, (_, idx) => (
-            <ReviewCardItem key={idx} />
-          ))}
+          {fakeReviewData.map((item) => {
+            return <ReviewCardItem item={item} key={item.id} />;
+          })}
         </div>
       </div>
     </div>

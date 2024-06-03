@@ -1,10 +1,9 @@
 import EmblaCarousel from "../../Embla/EmblaCarousel";
 import CardItem from "../../CardItem";
+import { fakeCatalogData } from "./const";
 
 const OPTIONS = { align: "start" };
-const SLIDE_COUNT = 5;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
-
+console.log("fakeCatalogData => ", fakeCatalogData);
 export default function Catalog() {
   return (
     <div className="md:py-[30px] py-[100px] bg-secondary">
@@ -14,7 +13,8 @@ export default function Catalog() {
         </h3>
         <div className="flex justify-between">
           <EmblaCarousel
-            slides={SLIDES}
+            fakeCatalogData={fakeCatalogData}
+            slides={fakeCatalogData.length}
             options={OPTIONS}
             Content={<CardItem />}
           />

@@ -1,4 +1,5 @@
 import ImageItem from "../../ImageItem";
+import { fakeDataGalery } from "./const";
 
 export default function OurGalery() {
   return (
@@ -8,9 +9,9 @@ export default function OurGalery() {
           Наша галерея
         </h1>
         <div className="grid md:grid-cols-4 grid-cols-2 grid-rows-2 md:gap-6 gap-3">
-          {Array.from({ length: 8 }, (_, idx) => (
-            <ImageItem key={idx} />
-          ))}
+          {fakeDataGalery.map((item) => {
+            return <ImageItem key={item.id} item={item} />;
+          })}
         </div>
       </div>
     </div>
